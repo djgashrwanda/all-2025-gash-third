@@ -1,0 +1,97 @@
+/* General */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f4f7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 550px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #188fa7;
+}
+
+/* Button Styles */
+.btn {
+    padding: 15px 25px;
+    background-color: #188fa7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #2394ab;
+    transform: translateY(-3px);
+}
+
+/* Answer Buttons */
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.correct {
+    background-color: #2ecc71;
+}
+
+.wrong {
+    background-color: #e74c3c;
+}
+
+/* Score and Game Over */
+#score-container {
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 30px;
+    font-weight: bold;
+    color: #188fa7;
+}
+
+.cash-out-btn {
+    background-color: #e57c04;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* Transitions */
+.hide {
+    display: none;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

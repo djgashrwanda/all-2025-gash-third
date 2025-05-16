@@ -1,0 +1,33 @@
+/* var time = 0;
+setInterval(function(){
+    time +=2;
+    console.log(time + "second passed")
+} , 2000)
+ */
+
+
+//display directory path
+//console.log(__dirname);
+
+// display file path
+//console.log(__filename);
+
+// make function statement
+/*function hay(){
+    console.log("hello gash");
+}
+hay();
+*/
+/*const hay = () =>{
+    console.log('hello gashema');
+}
+hay();
+*/
+
+/* var hey = function(){
+    console.log('hello gash');
+}
+hey();
+*/
+var counter = require('./mudule');
+console.log(counter(['abana', 'amata' , 'ibyayi']));

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <button class="nav-toggle">Menu</button>
+<nav class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">Movies</a>
+    <a href="#">Series</a>
+    <!-- more links -->
+</nav>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        <div class="user-icon">
+            <img src="user-icon.png" alt="User">
+        </div>
+    </header>
+
+    <!-- Notification Banner -->
+    <div class="banner">
+        <p>Welcome! Explore the latest movies and series.</p>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content-wrapper">
+            <!-- Left Section (Movie List) -->
+            <section class="movie-list">
+                <h2>Movies</h2>
+                <div class="movie-card">
+                    <img src="movie1.jpg" alt="Movie">
+                    <h3>Movie Title</h3>
+                    <p>Release Date: January 2023</p>
+                    <button>Play</button>
+                    <button>Read More</button>
+                </div>
+                <!-- Repeat .movie-card for more movies -->
+            </section>
+
+            <!-- Right Section (Recommended, New Movies, Subscription) -->
+            <aside>
+                <!-- Recommended Carousel -->
+                <div class="recommended">
+                    <h2>Recommended Must Watch</h2>
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <img src="recommended1.jpg" alt="Recommended Movie">
+                            <p>Recommended Movie Title</p>
+                        </div>
+                        <!-- Repeat .carousel-item for more recommendations -->
+                    </div>
+                </div>
+
+                <!-- Subscription Form -->
+                <div class="subscribe">
+                    <h2>Subscribe</h2>
+                    <input type="email" placeholder="Email Address">
+                    <button>Subscribe</button>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Most Popular Movies Section -->
+        <section class="popular-movies">
+            <h2>Most Popular Movies</h2>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="popular1.jpg" alt="Popular Movie">
+                    <p>Popular Movie Title</p>
+                </div>
+                <!-- Repeat .carousel-item for more popular movies -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <p>&copy; 2024 Streaming Website</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
